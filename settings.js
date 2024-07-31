@@ -44,6 +44,6 @@ AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,
 AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
 AUTO_STICKER: process.env.AUTO_STICKER || false  ,
 WELCOME:  process.env.WELCOME  || false ,
-ANTI_DELETE : process.env.ANTI_DELETE || false ,
+ANTI_DELETE : process.env.ANTI_DELETE || true ,
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO    
 };
